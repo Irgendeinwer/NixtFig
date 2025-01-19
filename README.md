@@ -8,17 +8,19 @@ Below is the structure of what this repository can hold—a framework waiting fo
 
 ```
 .
-├── assets  
-│   ├── images  
-│   │   └── wallpapers  
-│   └── texts  
-│       └── scripts  
-├── home  
-├── hosts  
-│   ├── junixbook  
-│   └── junixos  
-├── LICENSE  
-└── nix  
+├── assets
+│   ├── images
+│   │   └── wallpapers
+│   └── texts
+│       └── scripts
+├── flake.nix
+├── hm
+├── hosts
+│   ├── junixbook
+│   └── junixos
+├── LICENSE
+├── nix
+└── README.md
 ```
 
 Each directory is a placeholder for creativity. Define its role, fill its emptiness, and let it grow.  

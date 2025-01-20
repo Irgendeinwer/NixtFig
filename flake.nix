@@ -20,7 +20,6 @@
   outputs = {
     self,
     nixpkgs,
-    nixos-hardware,
     ... 
   }@inputs:
   {
@@ -43,9 +42,6 @@
 	specialArgs = {inherit inputs;};
 	modules = [
 	    ./hosts/junixbook/configuration.nix
-
-	    nixos-hardware.nixosModules.common-cpu-intel
-	    nixos-hardware.nixosModules.common-pc-ssd
 
 	    inputs.home-manager.nixosModules.default
 	    {

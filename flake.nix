@@ -9,11 +9,6 @@
 	inputs.nixpkgs.follows = "nixpkgs";
     };
     
-    nixvim = {
-	url = "github:nix-community/nixvim";
-	inputs.nixpkgs.follows = "nixpkgs";
-    };
-    
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
   };
 
@@ -33,8 +28,6 @@
 		home-manager.useGlobalPkgs = true;
             	home-manager.useUserPackages = true;
             }
-
-	    inputs.nixvim.nixosModules.nixvim
 	];
     };
 
@@ -48,8 +41,6 @@
 		home-manager.useGlobalPkgs = true;
 		home-manager.useUserPackages = true;
 	    }
-
-	    inputs.nixvim.nixosModules.nixvim
 	];
     };
   };

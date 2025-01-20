@@ -7,7 +7,15 @@
   ];
 
   custom = {
+    # Essentials
+    misc.enable = true;
+    sound.enable = true;
+    users.enable = true;
 
+    # Userspace
+    
+    # Addons
+    scripts.enable = true;
   };
 
   networking.hostName = "junixos"; 
@@ -18,6 +26,4 @@
 	"julian" = import ./home.nix;
     };
   };
-
-  system.stateVersion = "24.05"; # Did you read the comment?
 }

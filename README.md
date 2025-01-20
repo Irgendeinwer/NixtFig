@@ -13,13 +13,26 @@ Below is the structure of what this repository can hold—a framework waiting fo
 │   │   └── wallpapers
 │   └── texts
 │       └── scripts
+│           ├── default.nix
+│           └── hello.nix
 ├── flake.nix
 ├── hm
 ├── hosts
 │   ├── junixbook
+│   │   ├── configuration.nix
+│   │   ├── hardware-configuration.nix
+│   │   └── home.nix
 │   └── junixos
+│       ├── configuration.nix
+│       ├── hardware-configuration.nix
+│       └── home.nix
 ├── LICENSE
 ├── nix
+│   ├── boot.nix
+│   ├── default.nix
+│   ├── misc.nix
+│   ├── sound.nix
+│   └── users.nix
 └── README.md
 ```
 

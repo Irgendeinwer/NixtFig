@@ -17,11 +17,15 @@
 	# command = "dbus-launch Hyprland && hyprlock";
     };
     getty.enable = true;
+    nh.enable = true;
     no-powerbutton.enable = false;
 
     # Userspace
     hypr.enable = true;
+    stylix.enable = true;
+    kitty.enable = true;
     browsers.enable = true;
+    socialize.enable = true;
     gaming.enable = true;
 
     # Addons

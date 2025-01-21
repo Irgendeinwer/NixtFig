@@ -11,6 +11,7 @@ Below is the structure of what this repository can hold—a framework waiting fo
 ├── assets
 │   ├── images
 │   │   └── wallpapers
+│   │       └── current.png
 │   └── texts
 │       └── scripts
 │           ├── default.nix
@@ -36,10 +37,15 @@ Below is the structure of what this repository can hold—a framework waiting fo
 │   ├── greetd.nix
 │   ├── hypr.nix
 │   ├── internationalization.nix
+│   ├── kitty.nix
 │   ├── misc.nix
 │   ├── networking.nix
+│   ├── nh.nix
 │   ├── no-powerbutton.nix
+│   ├── printing.nix
+│   ├── socialize.nix
 │   ├── sound.nix
+│   ├── stylix.nix
 │   └── users.nix
 └── README.md
 ```

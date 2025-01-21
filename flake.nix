@@ -8,7 +8,8 @@
 	url = "github:nix-community/home-manager";
 	inputs.nixpkgs.follows = "nixpkgs";
     };
-    
+
+    stylix.url = "github:danth/stylix";
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
   };
 
@@ -28,6 +29,8 @@
 		home-manager.useGlobalPkgs = true;
             	home-manager.useUserPackages = true;
             }
+	    
+	    inputs.stylix.nixosModules.stylix
 	];
     };
 
@@ -41,6 +44,8 @@
 		home-manager.useGlobalPkgs = true;
 		home-manager.useUserPackages = true;
 	    }
+
+	    inputs.stylix.nixosModules.stylix
 	];
     };
   };

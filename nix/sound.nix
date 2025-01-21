@@ -1,4 +1,4 @@
-{ lib, config, ... }:
+{ pkgs, lib, config, ... }:
 {
   options = {
     custom.sound.enable = lib.mkEnableOption "sound-support";
@@ -12,5 +12,10 @@
 	pulse.enable = true;
 	jack.enable = true;
     };
+    environment.systemPackages = with pkgs; [
+	alsa-utils
+	pavucontrol
+	pamixer
+    ];
   };
 }

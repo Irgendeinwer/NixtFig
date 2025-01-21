@@ -15,6 +15,7 @@ Below is the structure of what this repository can hold—a framework waiting fo
 │       └── scripts
 │           ├── default.nix
 │           └── hello.nix
+├── flake.lock
 ├── flake.nix
 ├── hm
 ├── hosts
@@ -29,8 +30,15 @@ Below is the structure of what this repository can hold—a framework waiting fo
 ├── LICENSE
 ├── nix
 │   ├── boot.nix
+│   ├── browsers.nix
 │   ├── default.nix
+│   ├── gaming.nix
+│   ├── greetd.nix
+│   ├── hypr.nix
+│   ├── internationalization.nix
 │   ├── misc.nix
+│   ├── networking.nix
+│   ├── no-powerbutton.nix
 │   ├── sound.nix
 │   └── users.nix
 └── README.md

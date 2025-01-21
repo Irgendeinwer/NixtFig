@@ -9,11 +9,21 @@
   custom = {
     # Essentials
     misc.enable = true;
-    sound.enable = true;
     users.enable = true;
+    sound.enable = true; 
+    internationalization.enable = true;
+    greetd = {
+	enable = true;
+	# command = "dbus-launch Hyprland && hyprlock";
+    };
+    getty.enable = true;
+    no-powerbutton.enable = false;
 
     # Userspace
-    
+    hypr.enable = true;
+    browsers.enable = true;
+    gaming.enable = true;
+
     # Addons
     scripts.enable = true;
   };

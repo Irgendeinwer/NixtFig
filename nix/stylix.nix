@@ -8,11 +8,12 @@
 	base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-material-dark-hard.yaml"; 
 	image = ../assets/images/wallpapers/current.png;
 
-	cursor = {
-	    package = pkgs.volantes-cursors;
-	    name = "volantes_cursors";
-	    size = 32;
-	};
+	# I want to use Hyprcursor!! I'm cooler than this xshit
+	# cursor = {
+	#    package = pkgs.volantes-cursors;
+	#    name = "volantes_cursors";
+	#    size = 32;
+	# };
 
 	fonts = {
 	    monospace = {

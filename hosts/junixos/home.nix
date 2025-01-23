@@ -4,6 +4,7 @@
   home.homeDirectory = "/home/julian";
 
   custom = {
+    hyprlock.enable = true;
   };
 
   imports = [ ../../hm/default.nix ];

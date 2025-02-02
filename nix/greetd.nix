@@ -1,6 +1,6 @@
 { config, lib, ... }:
 {
-  options = { 
+  options.custom = { 
     greetd = {
 	enable = lib.mkEnableOption "greetd";
 	command = lib.mkOption {
